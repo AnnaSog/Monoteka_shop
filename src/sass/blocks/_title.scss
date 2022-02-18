@@ -1,0 +1,42 @@
+.title {
+    &_fz16 {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-decoration: underline;
+        color: $main-color;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    &_fz18 {
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &_fz24 {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &_fz30 {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &_fz36 {
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #000000;
+  
+    }
+    &_fz48 {
+        font-size: 48px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 1.2;
+    }
+} 

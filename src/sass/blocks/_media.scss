@@ -1,0 +1,146 @@
+@media (max-width: 1200px) {
+    .header {
+        .menu {
+            ul {
+                display: none;
+            }
+        }
+        .hamburger {
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            height: 21px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+            cursor: pointer;
+            span {
+                display: block;
+                width: 30px;
+                height: 3px;
+                background: black;
+            }
+        }
+        .search {
+            display: none;
+        }
+        .backet_black {
+            margin-right: 81px;
+        }
+    }
+
+    .main {
+        
+        height: auto;
+        .carousel{
+            .img-carousel {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .title_fz48 {
+            font-size: 36px;
+        }
+
+        &__jackets {
+            display: none;
+        }
+        &__business {
+            display: none;
+        }
+    }
+
+    .content {
+        &__items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        &__item {
+           margin-bottom: 35px;
+           margin-right: 0;
+        }
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .content {
+        &__arrows {
+            display: none;
+        }
+        &__tab  {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 540px;
+        padding: 0 15px;
+    }
+    .main {
+        .carousel{
+            &_btn {
+                display: none;
+            }
+        }
+    }
+    .catalog {
+        &__items {
+            height: auto;
+            grid-template-columns: repeat(3,1fr);
+            row-gap: 2px;
+        }
+    }
+    .content {
+        &__tabs{
+            flex-direction: column;
+            .title_fz36 {
+                margin-top: 15px;
+            }
+        }   
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .header {
+        .menu {
+            padding: 0 5px;
+            &__catalog {
+                display: none;
+            }
+        }
+    }
+    .main {
+        .title_fz48 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .button_shop {
+            display: none
+        }
+    }
+    .catalog {
+        &__items{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    .content {
+        &__tab {
+            margin-left: 15px;
+        }
+        &__item {
+            margin-right: 0;
+        }
+    }     
+}

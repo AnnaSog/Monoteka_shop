@@ -1,0 +1,17 @@
+.catalog{
+    &__items {
+        height: 100px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 2px;
+    }
+    &__item{
+        cursor: pointer;
+        background-color: #000000;
+        text-align: center;
+        img {
+            margin-top: 12px;
+            margin-bottom: 13px;
+        }
+    }
+}
